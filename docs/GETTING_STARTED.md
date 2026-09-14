@@ -57,7 +57,7 @@ Copy components directly from the repository:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Yhooi2/shadcn-glass-ui-library.git
+git clone https://github.com/artyhoo/shadcn-glass-ui-library.git
 
 # Copy desired components
 cp shadcn-glass-ui-library/src/components/glass/ui/button-glass.tsx ./src/components/ui/
@@ -724,7 +724,7 @@ Read [UI_DESIGN.md](design-system/UI_DESIGN.md) to understand:
 
 ### Browse Examples
 
-- [Storybook](https://yhooi2.github.io/shadcn-glass-ui-library/) - Live component demos
+- [Storybook](https://artyhoo.github.io/shadcn-glass-ui-library/) - Live component demos
 - [ComponentShowcase](../src/components/demos/ComponentShowcase.tsx) - All components in one page
 - [DesktopShowcase](../src/components/demos/DesktopShowcase.tsx) - Full application example
 - [MobileShowcase](../src/components/demos/MobileShowcase.tsx) - Mobile-optimized showcase
@@ -738,8 +738,8 @@ Read [UI_DESIGN.md](design-system/UI_DESIGN.md) to understand:
 
 ### Get Help
 
-- [GitHub Discussions](https://github.com/Yhooi2/shadcn-glass-ui-library/discussions)
-- [Issues](https://github.com/Yhooi2/shadcn-glass-ui-library/issues)
+- [GitHub Discussions](https://github.com/artyhoo/shadcn-glass-ui-library/discussions)
+- [Issues](https://github.com/artyhoo/shadcn-glass-ui-library/issues)
 - [Contributing Guide](../CONTRIBUTING.md)
 
 ---

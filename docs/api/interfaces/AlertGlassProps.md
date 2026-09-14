@@ -1,12 +1,13 @@
 [**shadcn-glass-ui API Reference v1.0.7**](../README.md)
 
-***
+---
 
 [shadcn-glass-ui API Reference](../globals.md) / AlertGlassProps
 
 # Interface: AlertGlassProps
 
-Defined in: [src/components/glass/ui/alert-glass.tsx:162](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L162)
+Defined in:
+[src/components/glass/ui/alert-glass.tsx:162](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L162)
 
 Props for the AlertGlass component
 
@@ -15,11 +16,13 @@ Features theme-aware styling and WCAG-compliant role attributes.
 
 ## Accessibility
 
-- **Keyboard Navigation:** Dismissible alerts include a keyboard-accessible close button (Tab + Enter/Space)
+- **Keyboard Navigation:** Dismissible alerts include a keyboard-accessible close button (Tab +
+  Enter/Space)
 - **Focus Management:** Close button receives visible focus ring (WCAG 2.4.7)
 - **Screen Readers:** Uses `role="alert"` for immediate announcement to screen readers (WCAG 4.1.3)
 - **Icon Semantics:** Icons are decorative and hidden from screen readers with `aria-hidden="true"`
-- **Variant Semantics:** Each variant uses distinct colors and icons for multi-modal communication (color + icon)
+- **Variant Semantics:** Each variant uses distinct colors and icons for multi-modal communication
+  (color + icon)
 - **Touch Targets:** Dismiss button meets minimum 44x44px touch target (WCAG 2.5.5)
 - **Color Contrast:** All variant text and backgrounds meet WCAG AA contrast ratio 4.5:1
 - **Motion:** Transitions respect `prefers-reduced-motion` settings
@@ -76,7 +79,8 @@ Features theme-aware styling and WCAG-compliant role attributes.
 
 ## Extends
 
-- `Omit`\<`React.HTMLAttributes`\<`HTMLDivElement`\>, `"style"` \| `"title"`\>.`VariantProps`\<*typeof* [`alertVariants`](../variables/alertVariants.md)\>
+- `Omit`\<`React.HTMLAttributes`\<`HTMLDivElement`\>, `"style"` \|
+  `"title"`\>.`VariantProps`\<_typeof_ [`alertVariants`](../variables/alertVariants.md)\>
 
 ## Properties
 
@@ -84,47 +88,53 @@ Features theme-aware styling and WCAG-compliant role attributes.
 
 > `readonly` `optional` **title**: `string`
 
-Defined in: [src/components/glass/ui/alert-glass.tsx:165](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L165)
+Defined in:
+[src/components/glass/ui/alert-glass.tsx:165](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L165)
 
-***
+---
 
 ### children
 
 > `readonly` **children**: `ReactNode`
 
-Defined in: [src/components/glass/ui/alert-glass.tsx:166](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L166)
+Defined in:
+[src/components/glass/ui/alert-glass.tsx:166](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L166)
 
 #### Overrides
 
 `Omit.children`
 
-***
+---
 
 ### dismissible?
 
 > `readonly` `optional` **dismissible**: `boolean`
 
-Defined in: [src/components/glass/ui/alert-glass.tsx:167](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L167)
+Defined in:
+[src/components/glass/ui/alert-glass.tsx:167](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L167)
 
-***
+---
 
 ### onDismiss()?
 
 > `readonly` `optional` **onDismiss**: () => `void`
 
-Defined in: [src/components/glass/ui/alert-glass.tsx:168](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L168)
+Defined in:
+[src/components/glass/ui/alert-glass.tsx:168](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/alert-glass.tsx#L168)
 
 #### Returns
 
 `void`
 
-***
+---
 
 ### variant?
 
-> `optional` **variant**: `"default"` \| `"error"` \| `"destructive"` \| `"success"` \| `"warning"` \| `"info"` \| `null`
+> `optional` **variant**: `"default"` \| `"error"` \| `"destructive"` \| `"success"` \| `"warning"`
+> \| `"info"` \| `null`
 
-Defined in: [src/lib/variants/alert-glass-variants.ts:27](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/lib/variants/alert-glass-variants.ts#L27)
+Defined in:
+[src/lib/variants/alert-glass-variants.ts:27](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/lib/variants/alert-glass-variants.ts#L27)
 
 #### Inherited from
 

@@ -3,7 +3,7 @@
   "private": false,
   "version": "2.11.2",
   "description": "Glassmorphism UI library for React - AI-friendly with 59 components, strict TypeScript, and comprehensive docs",
-  "author": "Yhooi2",
+  "author": "artyhoo",
   "license": "MIT",
   "keywords": [
     "react",
@@ -31,14 +31,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yhooi2/shadcn-glass-ui-library.git"
+    "url": "git+https://github.com/artyhoo/shadcn-glass-ui-library.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "homepage": "https://yhooi2.github.io/shadcn-glass-ui-library/",
-  "bugs": "https://github.com/Yhooi2/shadcn-glass-ui-library/issues",
+  "homepage": "https://artyhoo.github.io/shadcn-glass-ui-library/",
+  "bugs": "https://github.com/artyhoo/shadcn-glass-ui-library/issues",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",

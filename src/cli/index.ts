@@ -106,8 +106,8 @@ ${bold('Categories:')}
   sections    (L5)  Full page sections
 
 ${bold('More info:')}
-  Documentation: https://yhooi2.github.io/shadcn-glass-ui-library/
-  Repository:    https://github.com/Yhooi2/shadcn-glass-ui-library
+  Documentation: https://artyhoo.github.io/shadcn-glass-ui-library/
+  Repository:    https://github.com/artyhoo/shadcn-glass-ui-library
 `);
 }
 

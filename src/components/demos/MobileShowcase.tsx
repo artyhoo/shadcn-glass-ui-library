@@ -297,7 +297,7 @@ export function MobileShowcase() {
               >
                 <Search className="w-3.5 h-3.5 mr-2" style={{ color: 'var(--text-muted)' }} />
                 <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-                  Yhooi2
+                  artyhoo
                 </span>
               </div>
               <button
@@ -325,7 +325,7 @@ export function MobileShowcase() {
                   className="flex items-center gap-1.5 text-sm mt-0.5"
                   style={{ color: 'var(--text-secondary)' }}
                 >
-                  <span style={{ color: 'var(--text-accent)' }}>@Yhooi2</span>
+                  <span style={{ color: 'var(--text-accent)' }}>@artyhoo</span>
                   <ExternalLink className="w-3 h-3" />
                 </div>
                 <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>

@@ -535,12 +535,12 @@ function MyComponent() {
 
 ## Support
 
-- **GitHub Issues:** [Report bugs](https://github.com/yhooi2/shadcn-glass-ui-library/issues)
-- **Storybook:** [View live examples](https://yhooi2.github.io/shadcn-glass-ui-library/)
+- **GitHub Issues:** [Report bugs](https://github.com/artyhoo/shadcn-glass-ui-library/issues)
+- **Storybook:** [View live examples](https://artyhoo.github.io/shadcn-glass-ui-library/)
 - **Documentation:** [CLAUDE.md](../../CLAUDE.md) for AI assistants
 
 ---
 
 ## License
 
-MIT License - Part of [shadcn-glass-ui-library](https://github.com/yhooi2/shadcn-glass-ui-library)
+MIT License - Part of [shadcn-glass-ui-library](https://github.com/artyhoo/shadcn-glass-ui-library)

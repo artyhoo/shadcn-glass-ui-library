@@ -4,7 +4,7 @@
  * These tests verify that all Glass UI components have the correct
  * data-slot attributes for CSS targeting with Tailwind v4.
  *
- * @see https://github.com/Yhooi2/shadcn-glass-ui-library/issues/7
+ * @see https://github.com/artyhoo/shadcn-glass-ui-library/issues/7
  */
 
 import { describe, it, expect } from 'vitest';

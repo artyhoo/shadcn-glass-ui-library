@@ -1,23 +1,26 @@
 [**shadcn-glass-ui API Reference v1.0.7**](../README.md)
 
-***
+---
 
 [shadcn-glass-ui API Reference](../globals.md) / CheckboxGlassProps
 
 # Interface: CheckboxGlassProps
 
-Defined in: [src/components/glass/ui/checkbox-glass.tsx:94](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L94)
+Defined in:
+[src/components/glass/ui/checkbox-glass.tsx:94](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L94)
 
 Props for the CheckboxGlass component
 
-A glass-themed checkbox with accessible keyboard navigation, focus management,
-and touch-friendly targets. Features glow effects and theme-aware styling.
+A glass-themed checkbox with accessible keyboard navigation, focus management, and touch-friendly
+targets. Features glow effects and theme-aware styling.
 
 ## Accessibility
 
-- **Keyboard Navigation:** Full keyboard support with Enter/Space to toggle, Tab to focus (WCAG 2.1.1)
+- **Keyboard Navigation:** Full keyboard support with Enter/Space to toggle, Tab to focus (WCAG
+  2.1.1)
 - **Focus Management:** Visible focus ring using `--focus-glow` CSS variable (WCAG 2.4.7)
-- **Screen Readers:** Dual implementation with native `<input type="checkbox">` (hidden) + visual `<div role="checkbox">`
+- **Screen Readers:** Dual implementation with native `<input type="checkbox">` (hidden) + visual
+  `<div role="checkbox">`
 - **ARIA Attributes:** Uses `role="checkbox"` and `aria-checked` for proper state announcement
 - **Label Association:** Visual label automatically associated with checkbox via `<label>` wrapper
 - **Touch Targets:** 44x44px minimum touch area per Apple HIG (WCAG 2.5.5 compliance)
@@ -92,19 +95,21 @@ and touch-friendly targets. Features glow effects and theme-aware styling.
 
 > `readonly` **checked**: `boolean`
 
-Defined in: [src/components/glass/ui/checkbox-glass.tsx:96](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L96)
+Defined in:
+[src/components/glass/ui/checkbox-glass.tsx:96](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L96)
 
 #### Overrides
 
 `Omit.checked`
 
-***
+---
 
 ### onChange()?
 
 > `readonly` `optional` **onChange**: (`checked`) => `void`
 
-Defined in: [src/components/glass/ui/checkbox-glass.tsx:97](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L97)
+Defined in:
+[src/components/glass/ui/checkbox-glass.tsx:97](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L97)
 
 #### Parameters
 
@@ -116,10 +121,11 @@ Defined in: [src/components/glass/ui/checkbox-glass.tsx:97](https://github.com/Y
 
 `void`
 
-***
+---
 
 ### label?
 
 > `readonly` `optional` **label**: `string`
 
-Defined in: [src/components/glass/ui/checkbox-glass.tsx:98](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L98)
+Defined in:
+[src/components/glass/ui/checkbox-glass.tsx:98](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/checkbox-glass.tsx#L98)

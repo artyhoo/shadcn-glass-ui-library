@@ -30,7 +30,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    username: 'Yhooi2',
+    username: 'artyhoo',
     onSearch: fn(),
     onThemeToggle: fn(),
   },
@@ -63,7 +63,7 @@ export const EmptySearch: Story = {
 
 export const WithCallbacks: Story = {
   args: {
-    username: 'Yhooi2',
+    username: 'artyhoo',
     onSearch: fn((value) => console.log('Search:', value)),
     onThemeToggle: fn(() => console.log('Theme toggled')),
   },
@@ -74,10 +74,10 @@ export const WithCallbacks: Story = {
 
 export const Interactive: Story = {
   args: {
-    username: 'Yhooi2',
+    username: 'artyhoo',
   },
   render: function InteractiveHeader() {
-    const [searchValue, setSearchValue] = useState('Yhooi2');
+    const [searchValue, setSearchValue] = useState('artyhoo');
     const [searchResults, setSearchResults] = useState<string[]>([]);
 
     const handleSearch = (value: string) => {

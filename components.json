@@ -20,7 +20,7 @@
   },
   "registries": {
     "@shadcn-glass-ui": {
-      "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r/{name}.json"
+      "url": "https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r/{name}.json"
     }
   }
 }

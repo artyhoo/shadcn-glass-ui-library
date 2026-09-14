@@ -7,7 +7,7 @@ This guide explains how to use the shadcn-glass-ui component registry with the s
 The shadcn-glass-ui registry provides **55+ glassmorphism UI components** that can be installed
 directly into your project using the shadcn CLI, just like official shadcn/ui components.
 
-**Registry URL:** `https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r`
+**Registry URL:** `https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r`
 
 **v2.0.0 Update:** All registry components now use the 3-layer token system. If upgrading from v1.x,
 see the [CSS Variables Migration Guide](migration/CSS_VARIABLES_MIGRATION_2.0.md) for automated
@@ -42,7 +42,7 @@ Add the shadcn-glass-ui registry to your `components.json`:
   },
   "registries": {
     "@shadcn-glass-ui": {
-      "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r"
+      "url": "https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r"
     }
   }
 }
@@ -268,7 +268,7 @@ Make sure your `components.json` includes the registry configuration:
 {
   "registries": {
     "@shadcn-glass-ui": {
-      "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r"
+      "url": "https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r"
     }
   }
 }
@@ -320,10 +320,10 @@ See [GETTING_STARTED.md](./GETTING_STARTED.md) for npm installation guide.
 
 ## Resources
 
-- **Live Demo:** https://yhooi2.github.io/shadcn-glass-ui-library/
-- **GitHub:** https://github.com/Yhooi2/shadcn-glass-ui-library
+- **Live Demo:** https://artyhoo.github.io/shadcn-glass-ui-library/
+- **GitHub:** https://github.com/artyhoo/shadcn-glass-ui-library
 - **npm Package:** https://www.npmjs.com/package/shadcn-glass-ui
-- **Documentation:** https://github.com/Yhooi2/shadcn-glass-ui-library/tree/main/docs
+- **Documentation:** https://github.com/artyhoo/shadcn-glass-ui-library/tree/main/docs
 
 ## Contributing
 

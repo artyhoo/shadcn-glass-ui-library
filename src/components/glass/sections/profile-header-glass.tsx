@@ -259,7 +259,7 @@ const ProfileHeaderGlassLegacy = forwardRef<HTMLDivElement, ProfileHeaderGlassPr
   (
     {
       name = 'Artem Safronov',
-      username = 'Yhooi2',
+      username = 'artyhoo',
       joinDate = 'Jan 2023',
       bio,
       location,

@@ -195,14 +195,14 @@ export function DesktopShowcase() {
 
           {/* Header Navigation */}
           <div data-testid="section-header-nav">
-            <HeaderNavGlass username="Yhooi2" onThemeToggle={cycleTheme} />
+            <HeaderNavGlass username="artyhoo" onThemeToggle={cycleTheme} />
           </div>
 
           {/* Profile Header */}
           <div data-testid="section-profile-header">
             <ProfileHeaderGlass
               name="Artem Safronov"
-              username="Yhooi2"
+              username="artyhoo"
               joinDate="Jan 2023"
               stats={{ repos: 11, followers: 1, following: 5 }}
               languages={languages}

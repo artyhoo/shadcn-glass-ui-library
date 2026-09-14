@@ -9,7 +9,7 @@
 > `const` **ModalGlass**: `object`
 
 Defined in:
-[src/components/glass/ui/modal-glass.tsx:514](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/modal-glass.tsx#L514)
+[src/components/glass/ui/modal-glass.tsx:514](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/modal-glass.tsx#L514)
 
 ModalGlass - Compound Component API
 

@@ -280,7 +280,7 @@ echo "   - ComboBoxGlass: onChange → onValueChange"
 ## Need Help?
 
 - [CHANGELOG.md](../CHANGELOG.md) — Complete version history
-- [GitHub Issues](https://github.com/Yhooi2/shadcn-glass-ui-library/issues) — Report migration
+- [GitHub Issues](https://github.com/artyhoo/shadcn-glass-ui-library/issues) — Report migration
   issues
 
 ---

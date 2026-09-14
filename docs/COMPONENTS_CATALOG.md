@@ -1288,7 +1288,7 @@ search, theme toggle **Usage:**
 | Prop           | Type                                        | Default            | Description                |
 | -------------- | ------------------------------------------- | ------------------ | -------------------------- |
 | `name`         | `string`                                    | `"Artem Safronov"` | User's display name        |
-| `username`     | `string`                                    | `"Yhooi2"`         | GitHub/GitLab username     |
+| `username`     | `string`                                    | `"artyhoo"`        | GitHub/GitLab username     |
 | `joinDate`     | `string`                                    | `"Jan 2023"`       | Account creation date      |
 | `bio`          | `string \| null`                            | `undefined`        | User biography (Issue #30) |
 | `location`     | `string \| null`                            | `undefined`        | User location (Issue #30)  |

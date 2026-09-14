@@ -6,8 +6,8 @@
 
 [![npm version](https://img.shields.io/npm/v/shadcn-glass-ui.svg)](https://www.npmjs.com/package/shadcn-glass-ui)
 [![npm downloads](https://img.shields.io/npm/dm/shadcn-glass-ui.svg)](https://www.npmjs.com/package/shadcn-glass-ui)
-[![License](https://img.shields.io/npm/l/shadcn-glass-ui.svg)](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/main/LICENSE)
-[![CI](https://github.com/Yhooi2/shadcn-glass-ui-library/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/Yhooi2/shadcn-glass-ui-library/actions)
+[![License](https://img.shields.io/npm/l/shadcn-glass-ui.svg)](https://github.com/artyhoo/shadcn-glass-ui-library/blob/main/LICENSE)
+[![CI](https://github.com/artyhoo/shadcn-glass-ui-library/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/artyhoo/shadcn-glass-ui-library/actions)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/shadcn-glass-ui)](https://bundlephobia.com/package/shadcn-glass-ui)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.2-blue)](https://reactjs.org/)
@@ -66,13 +66,13 @@ ChatGPT:
 
 ## 📚 Documentation
 
-- **[Live Storybook](https://yhooi2.github.io/shadcn-glass-ui-library/)** - Interactive component
+- **[Live Storybook](https://artyhoo.github.io/shadcn-glass-ui-library/)** - Interactive component
   demos
 - **[npm Package](https://www.npmjs.com/package/shadcn-glass-ui)** - Public npm registry
 - **[Getting Started Guide](../../docs/GETTING_STARTED.md)** - Setup tutorial
-- **[GitHub](https://github.com/Yhooi2/shadcn-glass-ui-library)** - Source code
-- [Component Documentation](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs) - Detailed
-  API references
+- **[GitHub](https://github.com/artyhoo/shadcn-glass-ui-library)** - Source code
+- [Component Documentation](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/docs) -
+  Detailed API references
 - [Registry Usage Guide](../../docs/REGISTRY_USAGE.md) - shadcn CLI installation guide
 - [Design System](../design-system/UI_DESIGN.md) - Comprehensive UI specifications
 - [Migration Guides](../../docs/migration) - Upgrade and API changes
@@ -295,7 +295,7 @@ See [CHANGELOG.md](../../CHANGELOG.md) for complete version history and breaking
 - **[AI Usage Guide](../../docs/AI_USAGE.md)** - Using library with AI assistants (Copilot, Claude,
   GPT)
 - **[Publishing Guide](../../docs/PUBLISHING.md)** - Build and publish with TypeScript declarations
-- **[Storybook](https://yhooi2.github.io/shadcn-glass-ui-library/)** - Live component demos
+- **[Storybook](https://artyhoo.github.io/shadcn-glass-ui-library/)** - Live component demos
 - **[UI Design System](../design-system/UI_DESIGN.md)** - Complete design specifications
 - **[Visual Testing Guide](../../docs/visual-testing-guide.md)** - Screenshot update workflow
 - **[Migration Guide](MIGRATION_GUIDE.md)** - Upgrading from v1
@@ -317,7 +317,7 @@ Essential building blocks for any application:
   ProgressGlass, CircularProgressGlass
 - **Media**: AvatarGlass
 
-[View all Core UI components →](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs)
+[View all Core UI components →](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/docs)
 
 ### Level 2: Atomic (6 components)
 
@@ -330,7 +330,7 @@ Small, specialized components for specific use cases:
 - **StatItemGlass** - Individual stat display
 - **IconButtonGlass** - Icon-only button variant
 
-[View all Atomic components →](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs)
+[View all Atomic components →](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/docs)
 
 ### Level 3: Composite (13 components)
 
@@ -350,7 +350,7 @@ Pre-built complex components combining multiple elements:
 - **ContributionMetricsGlass** - Contribution metrics display
 - **MetricsGridGlass** - Grid layout for metrics
 
-[View all Composite components →](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs)
+[View all Composite components →](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/docs)
 
 ### Specialized Components (8 components)
 
@@ -365,7 +365,7 @@ Advanced specialized components for specific use cases:
 - **ProgressGlass** - Enhanced progress bar
 - **BaseProgressGlass** - Base progress component
 
-[View all Specialized components →](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs)
+[View all Specialized components →](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/docs)
 
 ### Level 4: Sections (7 components)
 
@@ -379,7 +379,7 @@ Full-page sections ready to use in your application:
 - **ProjectsListGlass** - Projects list with filtering and sorting
 - **HeaderBrandingGlass** - Branded header with logo and navigation
 
-[View all Section components →](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/docs)
+[View all Section components →](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/docs)
 
 ### Blocks (6 ready-to-use demo sections)
 
@@ -396,7 +396,7 @@ not production-ready blocks:
 **Note:** Blocks are showcase/demo components visible in Storybook. For production use, utilize
 individual components from the categories above.
 
-[View Blocks in Storybook →](https://yhooi2.github.io/shadcn-glass-ui-library/?path=/story/glass-blocks--default)
+[View Blocks in Storybook →](https://artyhoo.github.io/shadcn-glass-ui-library/?path=/story/glass-blocks--default)
 
 ### Demo Pages (3 full applications)
 
@@ -406,7 +406,7 @@ Complete application examples showcasing all components:
 - **DesktopShowcase** - GitHub Analytics desktop application mockup with glassmorphism design
 - **MobileShowcase** - Mobile-optimized GitHub profile view with responsive layout
 
-[Try live demos →](https://yhooi2.github.io/shadcn-glass-ui-library/)
+[Try live demos →](https://artyhoo.github.io/shadcn-glass-ui-library/)
 
 ## 🎨 Themes
 
@@ -612,7 +612,7 @@ npm run test:coverage
 
 ```bash
 # Clone repository
-git clone https://github.com/Yhooi2/shadcn-glass-ui-library.git
+git clone https://github.com/artyhoo/shadcn-glass-ui-library.git
 cd shadcn-glass-ui-library
 
 # Install dependencies
@@ -707,16 +707,16 @@ Built with amazing open source projects:
 ## 🔗 Links
 
 - **NPM Package**: [shadcn-glass-ui](https://www.npmjs.com/package/shadcn-glass-ui)
-- **Documentation**: [Storybook](https://yhooi2.github.io/shadcn-glass-ui-library/)
-- **GitHub**: [shadcn-glass-ui-library](https://github.com/Yhooi2/shadcn-glass-ui-library)
-- **Issues**: [Report a bug](https://github.com/Yhooi2/shadcn-glass-ui-library/issues)
-- **Discussions**: [Community](https://github.com/Yhooi2/shadcn-glass-ui-library/discussions)
+- **Documentation**: [Storybook](https://artyhoo.github.io/shadcn-glass-ui-library/)
+- **GitHub**: [shadcn-glass-ui-library](https://github.com/artyhoo/shadcn-glass-ui-library)
+- **Issues**: [Report a bug](https://github.com/artyhoo/shadcn-glass-ui-library/issues)
+- **Discussions**: [Community](https://github.com/artyhoo/shadcn-glass-ui-library/discussions)
 
 ## ⭐ Star History
 
 If you find this project useful, please consider giving it a star on GitHub!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Yhooi2/shadcn-glass-ui-library&type=Date)](https://star-history.com/#Yhooi2/shadcn-glass-ui-library&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=artyhoo/shadcn-glass-ui-library&type=Date)](https://star-history.com/#artyhoo/shadcn-glass-ui-library&Date)
 
 ---
 

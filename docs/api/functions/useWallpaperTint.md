@@ -1,6 +1,6 @@
 [**shadcn-glass-ui API Reference v1.0.7**](../README.md)
 
-***
+---
 
 [shadcn-glass-ui API Reference](../globals.md) / useWallpaperTint
 
@@ -8,7 +8,8 @@
 
 > **useWallpaperTint**(`options`): `WallpaperTintResult`
 
-Defined in: [src/lib/hooks/use-wallpaper-tint.ts:172](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/lib/hooks/use-wallpaper-tint.ts#L172)
+Defined in:
+[src/lib/hooks/use-wallpaper-tint.ts:172](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/lib/hooks/use-wallpaper-tint.ts#L172)
 
 Hook to extract and use wallpaper tint color
 
@@ -32,5 +33,5 @@ const { tintColor, isLoading } = useWallpaperTint({
 // Use tintColor in CSS variables
 <div style={{ '--wallpaper-tint': tintColor }}>
   <GlassCard />
-</div>
+</div>;
 ```

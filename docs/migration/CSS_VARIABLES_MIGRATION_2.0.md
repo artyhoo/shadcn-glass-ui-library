@@ -305,9 +305,9 @@ grep -rn "metric-emerald\|metric-amber\|metric-blue\|metric-red" .
 
 - 📖 [Token Architecture Guide](../TOKEN_ARCHITECTURE.md)
 - 🎨 [Theme Creation Guide](../THEME_CREATION_GUIDE.md)
-- 🐛 [Report Issues](https://github.com/Yhooi2/shadcn-glass-ui-library/issues)
-- 💬 [Discussions](https://github.com/Yhooi2/shadcn-glass-ui-library/discussions)
-- 📧 [Contact Support](https://github.com/Yhooi2/shadcn-glass-ui-library/issues/new/choose)
+- 🐛 [Report Issues](https://github.com/artyhoo/shadcn-glass-ui-library/issues)
+- 💬 [Discussions](https://github.com/artyhoo/shadcn-glass-ui-library/discussions)
+- 📧 [Contact Support](https://github.com/artyhoo/shadcn-glass-ui-library/issues/new/choose)
 
 ---
 

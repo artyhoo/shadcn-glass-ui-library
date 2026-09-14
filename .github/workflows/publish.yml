@@ -72,12 +72,12 @@ jobs:
         with:
           node-version: '22'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@Yhooi2'
+          scope: '@artyhoo'
 
       - name: Update package.json for GitHub Packages
         run: |
           cp package.json package.json.bak
-          node -e "const pkg = require('./package.json'); pkg.name = '@Yhooi2/shadcn-glass-ui'; pkg.publishConfig = { registry: 'https://npm.pkg.github.com/', access: 'public' }; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));"
+          node -e "const pkg = require('./package.json'); pkg.name = '@artyhoo/shadcn-glass-ui'; pkg.publishConfig = { registry: 'https://npm.pkg.github.com/', access: 'public' }; require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));"
 
       - name: Publish to GitHub Packages (skip build, reuse npm artifacts)
         run: npm publish --access public --ignore-scripts
@@ -104,7 +104,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 🌐 Registries" >> $GITHUB_STEP_SUMMARY
           echo "- **npm:** https://www.npmjs.com/package/shadcn-glass-ui" >> $GITHUB_STEP_SUMMARY
-          echo "- **GitHub Packages:** https://github.com/Yhooi2/shadcn-glass-ui-library/packages" >> $GITHUB_STEP_SUMMARY
+          echo "- **GitHub Packages:** https://github.com/artyhoo/shadcn-glass-ui-library/packages" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📥 Installation" >> $GITHUB_STEP_SUMMARY
           echo '```bash' >> $GITHUB_STEP_SUMMARY
@@ -112,5 +112,5 @@ jobs:
           echo "npm install shadcn-glass-ui@${{ steps.get_version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "# From GitHub Packages" >> $GITHUB_STEP_SUMMARY
-          echo "npm install @Yhooi2/shadcn-glass-ui@${{ steps.get_version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "npm install @artyhoo/shadcn-glass-ui@${{ steps.get_version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY

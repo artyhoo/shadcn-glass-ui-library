@@ -49,7 +49,7 @@ Before suggesting this option, verify:
 {
   "registries": {
     "@shadcn-glass-ui": {
-      "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r"
+      "url": "https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r"
     }
   }
 }
@@ -223,10 +223,10 @@ export function Test() {
 ```bash
 # Example: Copy ButtonGlass
 curl -o src/components/glass/ui/button-glass.tsx \
-  https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/src/components/glass/ui/button-glass.tsx
+  https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/src/components/glass/ui/button-glass.tsx
 
 curl -o src/lib/variants/button-glass-variants.ts \
-  https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/src/lib/variants/button-glass-variants.ts
+  https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/src/lib/variants/button-glass-variants.ts
 ```
 
 **2. Install dependencies manually**
@@ -240,7 +240,7 @@ npm install @radix-ui/react-slot lucide-react
 
 ```bash
 curl -o src/lib/utils.ts \
-  https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/src/lib/utils.ts
+  https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/src/lib/utils.ts
 ```
 
 ---
@@ -602,7 +602,7 @@ npx shadcn-glass-ui --help
 
 ## Context7 MCP Integration
 
-This library is indexed on [Context7](https://context7.com/yhooi2/shadcn-glass-ui-library) for AI
+This library is indexed on [Context7](https://context7.com/artyhoo/shadcn-glass-ui-library) for AI
 assistant discoverability.
 
 ### Using Context7 MCP
@@ -610,12 +610,12 @@ assistant discoverability.
 ```
 // Resolve library ID
 mcp__context7__resolve-library-id shadcn-glass-ui
-// Returns: /yhooi2/shadcn-glass-ui-library
+// Returns: /artyhoo/shadcn-glass-ui-library
 
 // Fetch documentation
-mcp__context7__get-library-docs /yhooi2/shadcn-glass-ui-library --topic="ButtonGlass"
-mcp__context7__get-library-docs /yhooi2/shadcn-glass-ui-library --topic="themes"
-mcp__context7__get-library-docs /yhooi2/shadcn-glass-ui-library --topic="token architecture"
+mcp__context7__get-library-docs /artyhoo/shadcn-glass-ui-library --topic="ButtonGlass"
+mcp__context7__get-library-docs /artyhoo/shadcn-glass-ui-library --topic="themes"
+mcp__context7__get-library-docs /artyhoo/shadcn-glass-ui-library --topic="token architecture"
 ```
 
 ### Context7 Rules Summary
@@ -642,9 +642,10 @@ mcp__context7__get-library-docs /yhooi2/shadcn-glass-ui-library --topic="token a
 ### Quick Reference
 
 - **Package name:** `shadcn-glass-ui`
-- **Registry URL:** `https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r`
+- **Registry URL:**
+  `https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r`
 - **Registry namespace:** `@shadcn-glass-ui`
-- **Context7 Library ID:** `/yhooi2/shadcn-glass-ui-library`
+- **Context7 Library ID:** `/artyhoo/shadcn-glass-ui-library`
 - **Component count:** 57 (includes StepperGlass)
 - **React version:** 18.0+ or 19.0+
 - **Tailwind version:** 4.1+
@@ -834,7 +835,7 @@ Available variants:
 
 ### When to recommend Storybook
 
-- User wants to see all components → https://yhooi2.github.io/shadcn-glass-ui-library/
+- User wants to see all components → https://artyhoo.github.io/shadcn-glass-ui-library/
 - User wants to test interactivity → Storybook interactive mode
 - User wants to explore variants → Storybook controls
 

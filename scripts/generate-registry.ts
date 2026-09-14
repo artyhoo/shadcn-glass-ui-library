@@ -66,7 +66,7 @@ interface RegistryIndex {
 const SCHEMA_REGISTRY = 'https://ui.shadcn.com/schema/registry.json';
 const SCHEMA_ITEM = 'https://ui.shadcn.com/schema/registry-item.json';
 const OUTPUT_DIR = 'public/r';
-const REPO_URL = 'https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main';
+const REPO_URL = 'https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main';
 
 // Component categories mapping
 const CATEGORY_MAP: Record<string, { type: RegistryItem['type']; category: string }> = {
@@ -148,7 +148,9 @@ function extractRegistryDeps(content: string): string[] {
  */
 function extractDescription(content: string): string {
   // Match: /** * ComponentName * Description text */
-  const match = content.match(/\/\*\*\s*\n\s*\*\s*\w+\s+Component\s*\n\s*\*\s*\n\s*\*\s*(.+?)(?:\n\s*\*\s*-|\n\s*\*\/)/s);
+  const match = content.match(
+    /\/\*\*\s*\n\s*\*\s*\w+\s+Component\s*\n\s*\*\s*\n\s*\*\s*(.+?)(?:\n\s*\*\s*-|\n\s*\*\/)/s
+  );
 
   if (match) {
     return match[1].trim();
@@ -166,7 +168,7 @@ function extractTitle(name: string): string {
   // button-glass -> Button Glass
   return name
     .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 }
 
@@ -222,7 +224,8 @@ async function generateRegistry() {
     // Parse metadata
     const dependencies = parseDependencies(content);
     const registryDependencies = extractRegistryDeps(content);
-    const description = extractDescription(content) || `${extractTitle(fileName)} component with glass effects`;
+    const description =
+      extractDescription(content) || `${extractTitle(fileName)} component with glass effects`;
     const title = extractTitle(fileName);
 
     // Create registry item
@@ -277,8 +280,8 @@ async function generateRegistry() {
   const registryIndex: RegistryIndex = {
     $schema: SCHEMA_REGISTRY,
     name: 'shadcn-glass-ui',
-    homepage: 'https://yhooi2.github.io/shadcn-glass-ui-library/',
-    items: registryItems.map(item => ({
+    homepage: 'https://artyhoo.github.io/shadcn-glass-ui-library/',
+    items: registryItems.map((item) => ({
       name: item.name,
       type: item.type,
       title: item.title,

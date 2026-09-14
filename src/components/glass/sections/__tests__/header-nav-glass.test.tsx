@@ -18,7 +18,7 @@ describe('HeaderNavGlass', () => {
 
     it('renders search input with default username', () => {
       renderWithTheme(<HeaderNavGlass />);
-      expect(screen.getByDisplayValue('Yhooi2')).toBeInTheDocument();
+      expect(screen.getByDisplayValue('artyhoo')).toBeInTheDocument();
     });
 
     it('renders search input with custom username', () => {
@@ -30,7 +30,7 @@ describe('HeaderNavGlass', () => {
       renderWithTheme(<HeaderNavGlass />);
       // There are multiple GitHub-related elements - the icon button and Sign in button
       const buttons = screen.getAllByRole('button');
-      const githubBtn = buttons.find(btn => btn.getAttribute('aria-label') === 'GitHub');
+      const githubBtn = buttons.find((btn) => btn.getAttribute('aria-label') === 'GitHub');
       expect(githubBtn).toBeInTheDocument();
     });
 
@@ -76,9 +76,7 @@ describe('HeaderNavGlass', () => {
 
       // Find the search button (not the GitHub button)
       const searchButtons = screen.getAllByRole('button');
-      const searchBtn = searchButtons.find(btn =>
-        btn.querySelector('.lucide-search')
-      );
+      const searchBtn = searchButtons.find((btn) => btn.querySelector('.lucide-search'));
 
       await user.click(searchBtn!);
       expect(handleSearch).toHaveBeenCalledWith('test');
@@ -146,7 +144,7 @@ describe('HeaderNavGlass', () => {
     it('all buttons have type="button"', () => {
       renderWithTheme(<HeaderNavGlass />);
       const buttons = screen.getAllByRole('button');
-      buttons.forEach(btn => {
+      buttons.forEach((btn) => {
         expect(btn).toHaveAttribute('type', 'button');
       });
     });
