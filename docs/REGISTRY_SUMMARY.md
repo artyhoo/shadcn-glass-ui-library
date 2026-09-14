@@ -5,7 +5,8 @@
 - **Status**: Merged and Live
 - **Merge Date**: December 8, 2025
 - **PR**: [shadcn-ui/ui#7543](https://github.com/shadcn-ui/ui/pull/7543)
-- **Registry URL**: `https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r`
+- **Registry URL**:
+  `https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r`
 - **Public Listing**: [registry.directory](https://registry.directory)
 
 ## 📦 Registry Details
@@ -32,8 +33,8 @@ npx shadcn@latest add @shadcn-glass-ui/button-glass
 ## 🔗 Important Links
 
 - **Registry Documentation**: [REGISTRY_USAGE.md](./REGISTRY_USAGE.md)
-- **Live Demo**: https://yhooi2.github.io/shadcn-glass-ui-library/
-- **GitHub Repository**: https://github.com/Yhooi2/shadcn-glass-ui-library
+- **Live Demo**: https://artyhoo.github.io/shadcn-glass-ui-library/
+- **GitHub Repository**: https://github.com/artyhoo/shadcn-glass-ui-library
 - **npm Package**: https://www.npmjs.com/package/shadcn-glass-ui
 
 ## 📊 Registry Metrics
@@ -93,4 +94,4 @@ npx shadcn@latest add @shadcn-glass-ui/button-glass --deps
 ---
 
 **Last Updated**: December 8, 2025  
-**Maintainer**: @Yhooi2
+**Maintainer**: @artyhoo

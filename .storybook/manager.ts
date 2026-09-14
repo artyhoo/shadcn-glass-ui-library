@@ -10,7 +10,7 @@ const glassTheme = create({
 
   // Branding
   brandTitle: 'Glass UI',
-  brandUrl: 'https://github.com/Yhooi2/shadcn-glass-ui-library',
+  brandUrl: 'https://github.com/artyhoo/shadcn-glass-ui-library',
   brandTarget: '_self',
 
   // Typography

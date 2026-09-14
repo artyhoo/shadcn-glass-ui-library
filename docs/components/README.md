@@ -319,7 +319,7 @@ When adding new component documentation:
 For questions, issues, or feature requests:
 
 - **GitHub Issues:**
-  [shadcn-glass-ui-library/issues](https://github.com/Yhooi2/shadcn-glass-ui-library/issues)
+  [shadcn-glass-ui-library/issues](https://github.com/artyhoo/shadcn-glass-ui-library/issues)
 - **Documentation Issues:** Label with `documentation`
 - **Component Requests:** Label with `enhancement`
 

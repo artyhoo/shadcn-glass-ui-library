@@ -7,7 +7,7 @@
 # Interface: BadgeGlassProps
 
 Defined in:
-[src/components/glass/ui/badge-glass.tsx:141](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L141)
+[src/components/glass/ui/badge-glass.tsx:141](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L141)
 
 Props for the BadgeGlass component
 
@@ -87,7 +87,7 @@ compatible variants plus extended Glass UI variants.
 > `readonly` **children**: `ReactNode`
 
 Defined in:
-[src/components/glass/ui/badge-glass.tsx:144](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L144)
+[src/components/glass/ui/badge-glass.tsx:144](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L144)
 
 #### Overrides
 
@@ -100,7 +100,7 @@ Defined in:
 > `readonly` `optional` **variant**: [`BadgeVariant`](../type-aliases/BadgeVariant.md)
 
 Defined in:
-[src/components/glass/ui/badge-glass.tsx:145](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L145)
+[src/components/glass/ui/badge-glass.tsx:145](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L145)
 
 ---
 
@@ -109,7 +109,7 @@ Defined in:
 > `readonly` `optional` **dot**: `boolean`
 
 Defined in:
-[src/components/glass/ui/badge-glass.tsx:146](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L146)
+[src/components/glass/ui/badge-glass.tsx:146](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/badge-glass.tsx#L146)
 
 ---
 
@@ -118,7 +118,7 @@ Defined in:
 > `optional` **size**: `"sm"` \| `"md"` \| `"lg"` \| `null`
 
 Defined in:
-[src/lib/variants/badge-glass-variants.ts:24](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/lib/variants/badge-glass-variants.ts#L24)
+[src/lib/variants/badge-glass-variants.ts:24](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/lib/variants/badge-glass-variants.ts#L24)
 
 #### Inherited from
 

@@ -1,17 +1,18 @@
 [**shadcn-glass-ui API Reference v1.0.7**](../README.md)
 
-***
+---
 
 [shadcn-glass-ui API Reference](../globals.md) / TooltipGlassProps
 
 # Interface: TooltipGlassProps
 
-Defined in: [src/components/glass/ui/tooltip-glass.tsx:90](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L90)
+Defined in:
+[src/components/glass/ui/tooltip-glass.tsx:90](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L90)
 
 Props for the TooltipGlass component
 
-A glass-themed tooltip with configurable positioning and unified dark design.
-Features smooth animations and WCAG-compliant accessibility attributes.
+A glass-themed tooltip with configurable positioning and unified dark design. Features smooth
+animations and WCAG-compliant accessibility attributes.
 
 ## Accessibility
 
@@ -80,7 +81,7 @@ Features smooth animations and WCAG-compliant accessibility attributes.
 
 ## Extends
 
-- `VariantProps`\<*typeof* [`tooltipPositions`](../variables/tooltipPositions.md)\>
+- `VariantProps`\<_typeof_ [`tooltipPositions`](../variables/tooltipPositions.md)\>
 
 ## Properties
 
@@ -88,32 +89,36 @@ Features smooth animations and WCAG-compliant accessibility attributes.
 
 > `readonly` **children**: `ReactNode`
 
-Defined in: [src/components/glass/ui/tooltip-glass.tsx:91](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L91)
+Defined in:
+[src/components/glass/ui/tooltip-glass.tsx:91](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L91)
 
-***
+---
 
 ### content
 
 > `readonly` **content**: `string`
 
-Defined in: [src/components/glass/ui/tooltip-glass.tsx:92](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L92)
+Defined in:
+[src/components/glass/ui/tooltip-glass.tsx:92](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L92)
 
-***
+---
 
 ### position?
 
 > `readonly` `optional` **position**: [`TooltipPosition`](../type-aliases/TooltipPosition.md)
 
-Defined in: [src/components/glass/ui/tooltip-glass.tsx:93](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L93)
+Defined in:
+[src/components/glass/ui/tooltip-glass.tsx:93](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L93)
 
 #### Overrides
 
 `VariantProps.position`
 
-***
+---
 
 ### className?
 
 > `readonly` `optional` **className**: `string`
 
-Defined in: [src/components/glass/ui/tooltip-glass.tsx:94](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L94)
+Defined in:
+[src/components/glass/ui/tooltip-glass.tsx:94](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/tooltip-glass.tsx#L94)

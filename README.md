@@ -10,9 +10,9 @@
 zero migration.
 
 <div align="center">
-  <img src="https://yhooi2.github.io/shadcn-glass-ui-library/demo-screenshot.png" alt="shadcn-glass-ui Demo" width="100%" />
+  <img src="https://artyhoo.github.io/shadcn-glass-ui-library/demo-screenshot.png" alt="shadcn-glass-ui Demo" width="100%" />
   <br />
-  <a href="https://yhooi2.github.io/shadcn-glass-ui-library/"><strong>Live Demo</strong></a> ·
+  <a href="https://artyhoo.github.io/shadcn-glass-ui-library/"><strong>Live Demo</strong></a> ·
   <a href="https://www.npmjs.com/package/shadcn-glass-ui"><strong>npm</strong></a> ·
   <a href="docs/GETTING_STARTED.md"><strong>Docs</strong></a>
 </div>
@@ -44,7 +44,7 @@ export default function App() {
 {
   "registries": {
     "@shadcn-glass-ui": {
-      "url": "https://raw.githubusercontent.com/Yhooi2/shadcn-glass-ui-library/main/public/r"
+      "url": "https://raw.githubusercontent.com/artyhoo/shadcn-glass-ui-library/main/public/r"
     }
   }
 }
@@ -58,13 +58,13 @@ npx shadcn@latest add @shadcn-glass-ui/button-glass
 
 ## Choose Your Path
 
-| Goal                    | Resource                                                       |
-| ----------------------- | -------------------------------------------------------------- |
-| **Get started**         | [Getting Started Guide](docs/GETTING_STARTED.md)               |
-| **Browse components**   | [Storybook](https://yhooi2.github.io/shadcn-glass-ui-library/) |
-| **Use with AI**         | [AI Usage Guide](docs/AI_USAGE.md)                             |
-| **Create custom theme** | [Theme Guide](docs/THEME_CREATION_GUIDE.md)                    |
-| **Migrate from v1.x**   | [Breaking Changes](docs/BREAKING_CHANGES.md)                   |
+| Goal                    | Resource                                                        |
+| ----------------------- | --------------------------------------------------------------- |
+| **Get started**         | [Getting Started Guide](docs/GETTING_STARTED.md)                |
+| **Browse components**   | [Storybook](https://artyhoo.github.io/shadcn-glass-ui-library/) |
+| **Use with AI**         | [AI Usage Guide](docs/AI_USAGE.md)                              |
+| **Create custom theme** | [Theme Guide](docs/THEME_CREATION_GUIDE.md)                     |
+| **Migrate from v1.x**   | [Breaking Changes](docs/BREAKING_CHANGES.md)                    |
 
 ---
 
@@ -100,7 +100,7 @@ import { ButtonGlass } from '@/components/glass/ui/button-glass';  // Glass vari
 | **Sections**    | 7     | HeaderNavGlass, ProfileHeaderGlass                 |
 | **Atomic**      | 7     | SearchBoxGlass, ThemeToggleGlass                   |
 
-[**Browse all 59 components →**](https://yhooi2.github.io/shadcn-glass-ui-library/)
+[**Browse all 59 components →**](https://artyhoo.github.io/shadcn-glass-ui-library/)
 
 ---
 
@@ -125,11 +125,11 @@ const { theme, cycleTheme } = useTheme();
 
 Built for AI coding assistants:
 
-| Tool             | Integration                                                                    |
-| ---------------- | ------------------------------------------------------------------------------ |
-| **Context7 MCP** | [Auto-indexed](https://context7.com/yhooi2/shadcn-glass-ui-library) — 63 rules |
-| **Claude Code**  | [CLAUDE.md](CLAUDE.md) — 365 lines of context                                  |
-| **Copilot**      | TypeScript strict + JSDoc                                                      |
+| Tool             | Integration                                                                     |
+| ---------------- | ------------------------------------------------------------------------------- |
+| **Context7 MCP** | [Auto-indexed](https://context7.com/artyhoo/shadcn-glass-ui-library) — 63 rules |
+| **Claude Code**  | [CLAUDE.md](CLAUDE.md) — 365 lines of context                                   |
+| **Copilot**      | TypeScript strict + JSDoc                                                       |
 
 [**AI Usage Guide →**](docs/AI_USAGE.md)
 
@@ -137,15 +137,15 @@ Built for AI coding assistants:
 
 ## Documentation
 
-| Resource                                                           | Description           |
-| ------------------------------------------------------------------ | --------------------- |
-| [**Storybook**](https://yhooi2.github.io/shadcn-glass-ui-library/) | Interactive demos     |
-| [**Getting Started**](docs/GETTING_STARTED.md)                     | Installation & setup  |
-| [**Component Catalog**](docs/COMPONENTS_CATALOG.md)                | All 57 components     |
-| [**Theme Guide**](docs/THEME_CREATION_GUIDE.md)                    | Custom themes         |
-| [**Token Architecture**](docs/TOKEN_ARCHITECTURE.md)               | 3-layer CSS system    |
-| [**AI Usage**](docs/AI_USAGE.md)                                   | Claude, Copilot, GPT  |
-| [**Breaking Changes**](docs/BREAKING_CHANGES.md)                   | v1.x → v2.0 migration |
+| Resource                                                            | Description           |
+| ------------------------------------------------------------------- | --------------------- |
+| [**Storybook**](https://artyhoo.github.io/shadcn-glass-ui-library/) | Interactive demos     |
+| [**Getting Started**](docs/GETTING_STARTED.md)                      | Installation & setup  |
+| [**Component Catalog**](docs/COMPONENTS_CATALOG.md)                 | All 57 components     |
+| [**Theme Guide**](docs/THEME_CREATION_GUIDE.md)                     | Custom themes         |
+| [**Token Architecture**](docs/TOKEN_ARCHITECTURE.md)                | 3-layer CSS system    |
+| [**AI Usage**](docs/AI_USAGE.md)                                    | Claude, Copilot, GPT  |
+| [**Breaking Changes**](docs/BREAKING_CHANGES.md)                    | v1.x → v2.0 migration |
 
 ---
 
@@ -173,5 +173,5 @@ MIT — [LICENSE](LICENSE)
   <a href="https://www.radix-ui.com/">Radix UI</a> ·
   <a href="https://tailwindcss.com/">Tailwind CSS</a>
   <br /><br />
-  <a href="https://github.com/Yhooi2/shadcn-glass-ui-library">Star on GitHub</a> if you find this useful!
+  <a href="https://github.com/artyhoo/shadcn-glass-ui-library">Star on GitHub</a> if you find this useful!
 </div>

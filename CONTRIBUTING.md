@@ -18,7 +18,7 @@ community.
 
 This project and everyone participating in it is governed by our Code of Conduct. By participating,
 you are expected to uphold this code. Please report unacceptable behavior via
-[GitHub Issues](https://github.com/Yhooi2/shadcn-glass-ui-library/issues).
+[GitHub Issues](https://github.com/artyhoo/shadcn-glass-ui-library/issues).
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ you are expected to uphold this code. Please report unacceptable behavior via
 
 1. **Fork the repository**
 
-   Fork the repository: https://github.com/Yhooi2/shadcn-glass-ui-library/fork
+   Fork the repository: https://github.com/artyhoo/shadcn-glass-ui-library/fork
 
 2. **Clone your fork**
 
@@ -45,7 +45,7 @@ you are expected to uphold this code. Please report unacceptable behavior via
 3. **Add upstream remote**
 
    ```bash
-   git remote add upstream https://github.com/Yhooi2/shadcn-glass-ui-library.git
+   git remote add upstream https://github.com/artyhoo/shadcn-glass-ui-library.git
    ```
 
 4. **Install dependencies**
@@ -614,7 +614,7 @@ This package is published to two registries:
    - Installation: `npm install shadcn-glass-ui`
 
 2. **GitHub Packages** (Scoped)
-   - Package name: `@yhooi2/shadcn-glass-ui`
+   - Package name: `shadcn-glass-ui`
    - Installation: See [GitHub Packages Guide](docs/GITHUB_PACKAGES.md)
 
 ### Publishing Workflow
@@ -638,7 +638,7 @@ for detailed instructions.
    ```
 
 3. **Create GitHub Release**:
-   - Go to [Releases](https://github.com/Yhooi2/shadcn-glass-ui-library/releases)
+   - Go to [Releases](https://github.com/artyhoo/shadcn-glass-ui-library/releases)
    - Click "Draft a new release"
    - Select the tag (e.g., `v1.0.1`)
    - Publish release
@@ -664,8 +664,8 @@ npm publish --registry=https://npm.pkg.github.com
 ## Questions?
 
 - **Discussions**:
-  [GitHub Discussions](https://github.com/Yhooi2/shadcn-glass-ui-library/discussions)
-- **Issues**: [Report a bug](https://github.com/Yhooi2/shadcn-glass-ui-library/issues)
+  [GitHub Discussions](https://github.com/artyhoo/shadcn-glass-ui-library/discussions)
+- **Issues**: [Report a bug](https://github.com/artyhoo/shadcn-glass-ui-library/issues)
 - **GitHub Packages**: [Installation Guide](docs/GITHUB_PACKAGES.md)
 
 ## License

@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "shadcn-glass-ui",
-  "homepage": "https://yhooi2.github.io/shadcn-glass-ui-library/",
+  "homepage": "https://artyhoo.github.io/shadcn-glass-ui-library/",
   "items": [
     {
       "name": "tooltip-glass",

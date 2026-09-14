@@ -4,7 +4,7 @@
   "description": "Machine-readable export structure for AI assistants and automated tools",
   "version": "1.0.8",
   "library": "shadcn-glass-ui",
-  "repository": "https://github.com/yhooi2/shadcn-glass-ui",
+  "repository": "https://github.com/artyhoo/shadcn-glass-ui-library",
   "lastUpdated": "2025-12-17",
 
   "components": {

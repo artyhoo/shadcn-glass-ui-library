@@ -7,7 +7,7 @@
 # Interface: ButtonGlassProps
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:157](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L157)
+[src/components/glass/ui/button-glass.tsx:157](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L157)
 
 Props for the ButtonGlass component
 
@@ -70,7 +70,7 @@ styling and hover animations.
 > `readonly` `optional` **asChild**: `boolean`
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:176](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L176)
+[src/components/glass/ui/button-glass.tsx:176](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L176)
 
 Render as child element instead of button (polymorphic rendering). Useful for rendering buttons as
 links or other interactive elements.
@@ -99,7 +99,7 @@ false;
 > `readonly` `optional` **variant**: [`ButtonGlassVariant`](../type-aliases/ButtonGlassVariant.md)
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:182](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L182)
+[src/components/glass/ui/button-glass.tsx:182](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L182)
 
 Visual style variant of the button
 
@@ -120,7 +120,7 @@ Visual style variant of the button
 > `readonly` `optional` **loading**: `boolean`
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:188](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L188)
+[src/components/glass/ui/button-glass.tsx:188](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L188)
 
 Show loading spinner and disable interactions
 
@@ -137,7 +137,7 @@ false;
 > `readonly` `optional` **icon**: `LucideIcon`
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:194](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L194)
+[src/components/glass/ui/button-glass.tsx:194](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L194)
 
 Icon component from lucide-react to display
 
@@ -154,7 +154,7 @@ icon = { Check };
 > `readonly` `optional` **iconPosition**: `"left"` \| `"right"`
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:200](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L200)
+[src/components/glass/ui/button-glass.tsx:200](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L200)
 
 Position of the icon relative to button text
 
@@ -171,7 +171,7 @@ Position of the icon relative to button text
 > `readonly` `optional` **size**: `"sm"` \| `"md"` \| `"lg"` \| `"icon"`
 
 Defined in:
-[src/components/glass/ui/button-glass.tsx:206](https://github.com/Yhooi2/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L206)
+[src/components/glass/ui/button-glass.tsx:206](https://github.com/artyhoo/shadcn-glass-ui-library/blob/926c43a35b985ce0dee6d96ce88a1fc3d72f4d67/src/components/glass/ui/button-glass.tsx#L206)
 
 Size variant of the button
 
